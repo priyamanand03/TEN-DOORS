@@ -220,7 +220,7 @@ function door9(){
          <div class="door9-time"><span id="door9Elapsed">0:00</span><span id="door9Duration">0:00</span></div>
        </div>
        <div class="door9-range-wrap"><input id="door9Range" type="range" min="0" max="100" value="0" step="0.1" oninput="seekDoor9Audio(this.value)" aria-label="Voice note progress"></div>
-       <audio id="door9Audio" preload="none" src="${door9Photos[0].voice}"></audio>
+       <audio id="door9Audio"controls preload="none" src="${door9Photos[0].voice}"></audio>
      </div>
      <div class="door9-full-progress"><div class="door9-full-progress-line"><i id="door9ProgressBar"></i></div><span>Swipe or use arrows to revisit each memory</span></div>
    </div>
